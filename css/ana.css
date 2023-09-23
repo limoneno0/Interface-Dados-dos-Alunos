@@ -1,0 +1,110 @@
+#cabeçalho{
+    list-style-type: none;
+    background-color: #021b30;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-size: x-large;
+}
+  
+#menu li{
+    display: inline;
+}
+  
+.logo{
+    margin-left: 550px; 
+    margin-right: 100px;
+    width: 70x;
+    height: 70px;
+}
+
+.Dados{
+    color: rgb(223, 216, 216); 
+    font-size: smaller;
+}
+
+
+.Piola {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos dentro do <li> */
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos um em cima do outro */
+    margin-right: 10px; /* Define a margem à direita para separar os textos, ajuste conforme necessário */
+}
+
+
+.Piola{
+    font-size: xx-large;
+    color: #021b30;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #988b8e;
+    font-family: "Questrial", sans-serif;
+    margin-left: 10px;
+    margin-right: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    width: 40%;
+    border-radius: 15px;
+}
+  
+.Piola p{
+   display: flex;
+   justify-content: center;
+
+}
+
+#principal{
+    width: calc(100% - 450px);
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 16%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+}
+.dados-aluna {
+    margin-top: 20px;
+}
+
+.dados-aluna {
+    margin: 0 auto; /* Centralizar horizontalmente */
+    max-width: 600px; /* Largura máxima para limitar a largura do conteúdo */
+    padding: 20px;
+   
+}
+
+h2{
+    text-align: center;
+    color: rgb(104, 131, 102);
+}

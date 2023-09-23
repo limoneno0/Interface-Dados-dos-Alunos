@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesdados.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="slide.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&display=swap" rel="stylesheet">
+    <title>Piola School</title>
+    
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <nav>
+            <ul id="menu">
+                <li class="Piola">
+                    <span>Piola Tech School</span>
+                    <span class="Dados">Dados dos Alunos</span>
+                </li>
+                <img src="img/logo.png" class="logo">
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <main id="principal">
+        <br/>
+        <br/>
+        <div class="barra-de-busca">
+            <input type="text" id="inputBusca" oninput="buscarAlunos()" placeholder="Digite o nome do aluno">
+            <button type="button" id="Buscar">Buscar</button>
+            <div id="sugestoes"></div>
+        </div>
+
+        <table class="lista-alunos">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Curso</th>
+                    <th>Email</th>
+                    <th>Data de início</th>
+                    <th>Progressão</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Ana Beatriz Silva Santos</td>
+                    <td>74279</td>
+                    <td>Análise de Dados</td>
+                    <td>aninhab023@gmail.com</td>
+                    <td>03/02/20</td>
+                    <td>Incompleto</td>
+                </tr>
+                <tr>
+                    <td>Carlos Eduardo Pereira Oliveira</td>
+                    <td>67890</td>
+                    <td>Design Gráfico</td>
+                    <td>cadupereiraa@outlook.com</td>
+                    <td>16/07/20</td>
+                    <td>Incompleto</td>
+                </tr>
+
+                <tr>
+                    <td>Diana Fonseca Ribeiro</td>
+                    <td>51990</td>
+                    <td>Design de Jogos</td>
+                    <td>dfrcontato@yahoo.com</td>
+                    <td>08/12/19</td>
+                    <td>Incompleto</td>
+                </tr>
+
+                <tr>
+                    <td>Fernando Henrique Souza Mendes</td>
+                    <td>28461</td>
+                    <td>Engenharia da Computação</td>
+                    <td>nandof0802@outlook.com</td>
+                    <td>25/04/21</td>
+                    <td>Incompleto</td>
+                </tr>
+
+                <tr>
+                    <td>Giovanna da Costa Alencar</td>
+                    <td>92652</td>
+                    <td>Desenvolvimento Web</td>
+                    <td>giogio2018@gmail.com</td>
+                    <td>05/02/21</td>
+                    <td>Completo</td>
+                </tr>
+
+                <tr>
+                    <td>Júlio Arthur César Gomes</td>
+                    <td>19522</td>
+                    <td>Robótica</td>
+                    <td>cesarpjulio@gmail.com</td>
+                    <td>18/07/20</td>
+                    <td>Pausado</td>
+                </tr>
+
+                <tr>
+                    <td>Larissa Martins Rodrigues</td>
+                    <td>64022</td>
+                    <td>Engenharia de Software</td>
+                    <td>lari20martins@outlook.com</td>
+                    <td>01/05/20</td>
+                    <td>Completo</td>
+                </tr>
+
+                <tr>
+                    <td>Marcelo de Souza Andrade</td>
+                    <td>88229</td>
+                    <td>Redes e Administração de Sistemas</td>
+                    <td>marcelo2302sa@yahoo.com</td>
+                    <td>30/10/21</td>
+                    <td>Pausado</td>
+                </tr>
+
+                <tr>
+                    <td>Natália Ferreira Neves Bastos</td>
+                    <td>40042</td>
+                    <td>Engenharia de Software</td>
+                    <td>natnaatfnb10@outlook.com</td>
+                    <td>15/03/19</td>
+                    <td>Incompleto</td>
+                </tr>
+
+                <tr>
+                    <td>Vinícuis Cruz Borges</td>
+                    <td>20336</td>
+                    <td>Design de Jogos</td>
+                    <td>trabalhovcb@gmail.com</td>
+                    <td>02/05/20</td>
+                    <td>Completo</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <script src="alunos.js"></script>
+    
+  
+  </body>
+  </html>
